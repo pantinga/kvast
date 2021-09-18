@@ -599,15 +599,13 @@ body {
 }
 
 .feedback-form-grou label {
-  /*border: 1px solid red;*/
   display: inline-block;
   font-size: 16px;
   font-family: "Arial";
   color: rgb(0, 0, 0);
   font-weight: bold;
   text-transform: uppercase;
-  line-height: 20px;
-  /*padding-top: 20px;*/
+  line-height: 20px;  
   padding-bottom: 8px;
 }
 
@@ -625,7 +623,6 @@ body {
 }
 
 .feedback-form input[type="text"],
-/*.feedback-form input[type="checkbox"],*/
 .feedback-form textarea {
   background-color: #e5b66c;
   border: none;
@@ -658,7 +655,7 @@ body {
 
 .feedback-form textarea {
   height: 116px;
-  margin-bottom: 8px;
+  margin-bottom: 9px;
 }
 
 .feedback-form input[type="text"]:hover,
@@ -676,21 +673,31 @@ body {
   color: rgb(0, 0, 0);  
 }
 
-/*.feedback-form label*/
 .feedback-form input[type="checkbox"] {
-  margin: 0px 5px 40px 0px;
+  margin: 0px 10px 39px 0px;
   height: 13px;
   width: 13px;
   border: none;
 }
 
 .page-footer {
-  background-color: #000000; 
+  padding-top: 60px;
+  background-color: #000000;
+  height: 270px;
+
 }
 
-.page-footer .main-nav {
-  border-top: 1px solid rgba(51, 51, 51, 0.2);
-  border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+.page-footer .header-logo {
+  margin-left: 37px;
+}
+
+.page-footer .main-nav { 
+  margin-top: 7px;
+  margin-left: 131px;
+}
+
+.footer-top {
+  margin-bottom: 48px;
 }
 
 .footer-middle { 
@@ -698,6 +705,71 @@ body {
   font-family: "Arial";
   color: rgb(152, 152, 152);
   line-height: 20px;  
+}
+
+.footer-social {
+  font-size: 0;
+  display: flex;
+  width: 210px;
+  float: left;
+}
+
+.in {
+  background-image: url("img/icon-insta.png");  
+  background-repeat: no-repeat;
+  background-position: center;  
+}
+
+.fa {
+  background-image: url("img/icon-fb.png");  
+  background-repeat: no-repeat;
+  background-position: center;  
+}
+
+.vk {
+  background-image: url("img/icon-vk.png");  
+  background-repeat: no-repeat;
+  background-position: center;  
+}
+
+.social-btn:first-child {
+  border-left: 1px solid #322d24;*/
+}
+
+.social-btn {
+  border-top: 1px solid #322d24;
+  border-bottom: 1px solid #322d24;
+  border-right: 1px solid #322d24;
+  background-color: rgb(27, 27, 27); 
+  width: 68px; 
+  height: 66px;
+}
+
+.footer-middle-next { 
+  float: left;
+  /*height: 50px;*/
+  width: 200px;
+  /*border: 1px solid #322d24;*/
+  margin-left: 90px;  
+  margin-right: 207px;
+}
+
+.footer-middle-next p{  
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(152, 152, 152);
+  line-height: 20px;  
+  }
+
+.footer-bottom {  
+  width: 300px;
+  display: flex;  
+}
+
+.footer-bottom img {  
+  background-color: rgb(27, 27, 27);
+  padding: 16px 22px 16px 21px;
+  border: 1px solid #322d24;
 }
 
 .footer-bottom b{
