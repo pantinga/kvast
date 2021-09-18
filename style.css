@@ -1,0 +1,718 @@
+body {
+  padding: 0;
+  margin: 0;
+  min-width: 1040px;
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  line-height: 24px;
+  color: #404040;
+  background-color: #ffffff; 
+}
+
+.container {
+  width: 1015px;
+  margin: 0 auto;
+  /*border: 1px solid blue;*/
+}
+
+.container1 {
+  width: 800px;
+  margin: 0 auto;
+  /*border: 1px solid blue;*/  
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.page-header {  
+  min-height: 490px;
+  padding-top: 60px;
+  background-image: url(img/wheat-back.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;  
+}
+
+.header-logo {  
+  float: left;
+  width: 140px;
+  height: 75px;
+}
+
+.header-top {
+  margin-bottom: 121px;  
+}
+
+.main-nav {    
+  list-style: none;  
+  width: 600px;  
+  height: 57px;
+  float: left;
+  padding: 0;
+  margin: 0;
+  margin-left: 60px;
+  margin-top: 10px;  
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);  
+} 
+
+.main-nav li {
+  padding-right: 55px;
+  float: left;
+  padding-top: 17px;
+}
+
+.main-nav li:nth-child(3) {
+  padding-right: 53px;  
+}
+
+.main-nav li:last-child {
+  padding-right: 0px;
+}
+
+.main-nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Arial";
+  font-size: 16px;
+  font-weight: bold;    
+}
+
+.main-nav li a:hover {
+  color: rgb(255, 203, 120);
+}
+
+.main-nav li a:active {
+  color: rgba(255, 203, 120, 0.3);
+}
+
+.promo {
+  font-size: 70px;
+  line-height: 70px;
+  font-weight: bold;
+  font-family: "Arial";
+  text-align: center;
+  color: #ffffff;
+}
+
+.price-list {  
+  padding-top: 47px;
+}
+
+.container1 h2 {  
+  font-size: 40px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 60px;
+  text-align: left;
+  }
+
+.kvas {  
+  margin-top: 42px;
+  border-right: 1px solid #e5e5e5;
+  padding-left: 34px;
+  width: 364px;
+  float: left;
+}
+
+.kvas:first-of-type {
+  border-left: 1px solid #e5e5e5;
+}
+
+.kvas h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 61px;
+  text-align: left;
+}  
+
+.composition {
+  padding: 0;
+  margin: 0;
+  margin-left: 189px;
+  margin-top: 10px;
+  font-size: 14px;  
+  font-family: "Arial";
+  color: rgb(64, 64, 64);
+  line-height: 24px;
+  text-align: left;  
+}
+
+.taste {
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(64, 64, 64);
+  line-height: 30px;
+  text-align: left;
+  width: 338px;
+}
+
+.table-list {
+  margin-left: 189px;
+  margin-top: 24px;  
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 38px;
+  text-align: left;
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse;
+  width: 150px;  
+}
+
+.table-list td {
+  border: 1px solid #e5e5e5;
+  padding-left: 10px;  
+}
+
+.bottle {
+  position: relative;
+  bottom: 136px;
+  right: -10px;
+  padding: 0;
+  margin: 0;  
+  z-index: -1; 
+}
+
+.opisanie {
+  position: relative;
+  bottom: 149px;
+}
+
+.btns {
+  position: relative;
+  top: -92px;
+}
+
+.more, .buy {
+  font-size: 16px;
+  font-family: "Arial";
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;  
+}
+
+.more {
+  color: #834700;
+  border: 2px solid #834700;
+  padding: 14px 20px 15px 20px;
+}
+
+.more:hover {
+  color: #6a3900;
+  border: 2px solid #6a3900;
+}
+
+.more:active {
+  color: #6a3900;
+  border: 2px solid #6a3900;
+  opacity: 0.3;
+}
+
+.buy {
+  color: white;
+  text-transform: uppercase;
+  background-color: #834700;
+  padding: 16px 22px 17px 22px;
+}
+
+.buy:hover {
+  color: white;
+  background-color: #6a3900;
+}
+
+.buy:active { 
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #6a3900;  
+}
+
+.btns .buy {
+  margin-left: 2px;
+} 
+
+.btns b {
+  margin-left: 20px;
+}
+
+.advntages{
+  background-color: #ffcb78;  
+  padding: 80px 0 95px 0;
+}  
+
+.intro {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-item {  
+  float: left;
+  padding-top: 87px;
+  border-left: 1px solid #e5b66c;
+  text-align: left;  
+  width: 210px;
+  height: 150px;  
+  padding-left: 95px;
+  padding-right: 95px;
+}
+
+.feature-item:first-child {
+  padding-left: 0;
+}
+
+.feature-item:last-child {
+  padding-right: 0;
+}
+
+.feature-item:first-child {
+  border: none;
+}
+
+.feature-item h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Arial";
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  padding-top: 13px;
+  }
+
+.feature-item p {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: "Arial";
+  color: rgb(64, 64, 64);
+  padding-top: 20px;
+ }
+
+ .item1 {
+  background-image: url(img/icon-brew.png);
+  background-repeat: no-repeat;  
+ }
+
+ .item2 {
+  background-image: url(img/icon-matreshka.png);
+  background-repeat: no-repeat;
+  background-position: 95px 0;  
+}
+
+.item3 {
+  background-image: url(img/icon-thumbsup.png);
+  background-repeat: no-repeat;
+  background-position: 95px 0;
+}
+
+.history {
+  padding-top: 47px;
+}
+
+.history h2 {  
+  font-size: 40px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 61px;
+  margin-bottom: 59px;  
+  }
+
+.history .title{  
+  font-size: 20px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 30px;
+  text-transform: uppercase;
+  }
+
+.history .title i{  
+  margin: 0;
+  padding: 0;
+  text-transform: none;
+  font-size: 16px;
+  font-family: "Arial";
+  color: #444444;
+  line-height: 30px;
+  font-weight: normal; 
+  vertical-align: 2px;
+  padding-left: 340px;
+}
+
+.history .title:first-of-type i {
+  padding-left: 338px;
+}
+
+.history .title a {
+  color: #834700;
+}
+
+.history .title a:hover{
+  color: #6a3900;
+ }
+
+.history .title a:active{
+  color: #cab7a2;
+}
+
+.history .recipe{  
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(64, 64, 64);
+  line-height: 30px;
+  margin-bottom: 60px;
+  margin-top: 20px; 
+}
+
+.recipe img {
+  margin-left: 110px;
+  padding-top: 10px;   
+}
+
+.recipe p {
+  width: 490px;
+  margin: 0;
+  padding: 0;
+}
+
+.press {
+  padding-top: 47px;
+  background-color: #ede5d8;
+  background-image: url(img/quotes.png);
+  background-repeat: no-repeat;
+  background-position: 135px 220px; 
+  min-height: 460px;
+}
+
+.press h2 {  
+  font-size: 40px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 61px;
+}
+
+.press-quotes {  
+  margin: 0;  
+  margin-top: 74px;
+  padding-bottom: 16px;
+}
+
+.press-quotes p {  
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(64, 64, 64);
+  line-height: 30px;
+  width: 690px;
+  margin-bottom: 45px;
+}
+
+.press-quotes a {  
+  position: relative;
+  top: 3px;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Arial";
+  color: rgba(0, 0, 0, 0.302);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid #a5a097;
+  padding: 14px 20px 15px 20px; 
+}
+
+.press-quotes a:hover {
+  color: #ffffff;
+  background-color: #a6a097;
+  padding: 14px 20px 15px 20px;
+}
+
+.press-quotes a:active{
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #8f8a81;
+  padding: 14px 20px 15px 20px;  
+  border: 2px solid #8f8a81;;
+} 
+
+.press-quotes cite {
+  position: absolute;
+  margin-left: 470px;
+  font-style: normal;
+  font-size: 20px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 30px;  
+}
+
+.catalog h2 {
+  font-size: 40px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 61px;
+  margin-top: 90px;
+  margin-bottom: 74px;  
+}
+
+.price-table {
+  border-collapse: collapse;  
+}
+
+.catalog .price-table th {
+  font-size: 11px;
+  font-family: "Arial";
+  color: rgb(153, 153, 153);
+  text-transform: uppercase;
+  line-height: 30px;
+  text-align: start;
+  padding-bottom: 30px;
+}
+
+.left {  
+  text-align: right;
+}
+
+.catalog .price-table td {
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(64, 64, 64);
+  text-transform: uppercase;
+  line-height: 30px;
+  height: 62px;
+}
+
+.catalog .price-table td:first-child {
+  color: rgb(0, 0, 0);
+  font-weight: bold;  
+}
+
+.catalog .price-table td:first-child sup {
+  font-size: 8px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 30px;
+  background-color: #000000;
+  padding: 2px 4px;
+  border-radius: 2px;
+  margin-left: 20px;
+}
+
+.price-table tr {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.catalog .price-table .new1 {
+  height: 65px;  
+}
+
+.price-table .one {
+  padding-left: 1px;
+}
+
+.price-table .two {  
+  padding-left: 238px; 
+}
+
+.catalog .price-table .third {
+  padding-left: 42px;
+}
+
+.catalog .price-table .fourth {
+  padding-left: 34px;
+}
+
+.catalog .price-table .fifth {
+  padding-left: 110px;
+}
+
+.order {
+  padding-top: 80px;
+  padding-bottom: 110px;
+  background-color: #ffcb78;  
+}
+
+.order .section-title {
+  margin: 0px;  
+  font-size: 40px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 61px;  
+}
+
+.order .feedback-tip {
+  margin: 0px;
+  margin-top: 74px;
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(64, 64, 64);
+  line-height: 30px;
+  width: 660px;
+}
+
+.feedback-form {
+  margin-top: 70px;
+  width: 626px; 
+  padding-right: 4px;
+}  
+
+.feedback-form-group label {  
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 20px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.feedback-form-grou label {
+  /*border: 1px solid red;*/
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 20px;
+  /*padding-top: 20px;*/
+  padding-bottom: 8px;
+}
+
+.feedback-form-group .btn {
+  font-size: 16px;
+  font-family: "Arial";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 20px;
+  height: 50px;
+  width: 200px;
+  background-color: #834700;
+  border: none;
+}
+
+.feedback-form input[type="text"],
+/*.feedback-form input[type="checkbox"],*/
+.feedback-form textarea {
+  background-color: #e5b66c;
+  border: none;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Arial";  
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  height: 48px; 
+}
+
+.left-part, .right-part{
+  width: 286px;
+}
+
+.left-part{
+  float: left;
+}
+
+.right-part{
+  float: right;
+} 
+
+.feedback-form select {
+  margin-top: 6px;
+  margin-bottom: 5px;
+  color: rgb(0, 0, 0);
+}
+
+.feedback-form textarea {
+  height: 116px;
+  margin-bottom: 8px;
+}
+
+.feedback-form input[type="text"]:hover,
+.feedback-form input[type="checkbox"]:hover,
+.feedback-form select:hover,
+.feedback-form textarea:hover {
+  background-color: #d9ad66;  
+}
+
+.feedback-form input[type="text"]:focus,
+.feedback-form input[type="checkbox"]:focus,
+.feedback-form select:focus,
+.feedback-form textarea:focus {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);  
+}
+
+/*.feedback-form label*/
+.feedback-form input[type="checkbox"] {
+  margin: 0px 5px 40px 0px;
+  height: 13px;
+  width: 13px;
+  border: none;
+}
+
+.page-footer {
+  background-color: #000000; 
+}
+
+.page-footer .main-nav {
+  border-top: 1px solid rgba(51, 51, 51, 0.2);
+  border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+}
+
+.footer-middle { 
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(152, 152, 152);
+  line-height: 20px;  
+}
+
+.footer-bottom b{
+  font-size: 14px;
+  font-family: "Arial";
+  font-weight: bold;
+  color: rgb(152, 152, 152);  
+  line-height: 20px;
+  text-decoration: none;
+  }
+
+.footer-bottom a{
+  font-size: 14px;
+  font-family: "Arial";
+  color: rgb(152, 152, 152);  
+  line-height: 20px;
+  text-decoration: none;
+  }
